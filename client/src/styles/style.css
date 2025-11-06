@@ -1,76 +1,38 @@
-.app-landing {
-  min-height: 100vh;
+.page-container {
   display: flex;
   flex-direction: column;
-  background: #f7f8fc;
-}
-
-.landing-hero {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 60px;
-  gap: 60px;
+  padding-top: 60px;
+  min-height: 100vh;
+  background: #eef2ff;
+
 }
 
-.landing-content {
-  max-width: 480px;
+.center-card {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+  text-align: center;
+  width: 400px;
+  margin-top: 40px;
 }
 
-.landing-title {
-  font-size: 48px;
-  font-weight: bold;
-  margin-bottom: 12px;
-  color: #2b2d42;
+.page-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #111827;
 }
 
-.landing-subtitle {
-  font-size: 18px;
+.page-subtext {
+  font-size: 15px;
   color: #6b7280;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
-.welcome-message {
-  margin-bottom: 16px;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.landing-buttons {
+.button-group {
   display: flex;
-  gap: 16px;
-  margin-top: 12px;
-}
-
-/* Illustration */
-.landing-illustration img {
-  width: 320px;
-  opacity: 0.9;
-}
-
-/* Buttons */
-.primary-btn,
-.secondary-btn,
-.logout-btn {
-  padding: 12px 20px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.primary-btn {
-  background: #4b60ff;
-  color: white;
-}
-
-.secondary-btn {
-  background: #e5e7eb;
-  color: #374151;
-}
-
-.logout-btn {
-  background: #ef4444;
-  color: white;
+  justify-content: center;
+  gap: 12px;
 }
