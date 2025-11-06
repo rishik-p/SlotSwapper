@@ -1,0 +1,63 @@
+.market-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 32px;
+}
+
+.select-box {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.select-box select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+h3 {
+  margin-top: 28px;
+  margin-bottom: 12px
+}
+
+.empty-msg {
+  color: #666;
+  margin-top: 12px;
+}
+
+.slots-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.slot-card {
+  border: 1px solid #ddd;
+  padding: 14px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.slot-card h4 {
+  margin-bottom: 6px;
+}
+
+.slot-owner {
+  font-size: 14px;
+  color: #555;
+}
+
+.slot-card button {
+  margin-top: 12px;
+  background: #2563eb;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.slot-card button:hover {
+  background: #1d4ed8;
+}

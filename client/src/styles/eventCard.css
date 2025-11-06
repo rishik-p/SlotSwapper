@@ -1,0 +1,88 @@
+.event-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+  transition: 0.2s;
+  font-family: "Inter", sans-serif;
+}
+
+.event-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 16px rgba(0,0,0,0.1);
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-busy {
+  background: #ddd;
+  color: #444;
+}
+
+.status-swappable {
+  background: #6b81ff33;
+  color: #4b60ff;
+}
+
+.event-time {
+  margin: 8px 0 16px;
+  color: #555;
+  font-size: 14px;
+}
+
+.event-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.swap-btn,
+.busy-btn,
+.delete-btn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+.swap-btn {
+  background: #4b60ff;
+  color: white;
+}
+
+.swap-btn:hover {
+  background: #3a4ed8;
+}
+
+.busy-btn {
+  background: #888;
+  color: white;
+}
+
+.busy-btn:hover {
+  background: #666;
+}
+
+.delete-btn {
+  background: #ff6666;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #d9534f;
+}
