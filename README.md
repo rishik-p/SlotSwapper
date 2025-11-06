@@ -1,4 +1,5 @@
 SlotSwapper
+
 SlotSwapper is a peer-to-peer time-slot scheduling and swapping application.
 Users can mark calendar events as swappable, browse other users’ available slots, and request a swap.
 If both parties agree, the system automatically updates their calendars in real-time.
