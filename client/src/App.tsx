@@ -49,7 +49,7 @@
 import React from "react";
 import { useAuth } from "./context/authContext";
 import { Link } from "react-router-dom";
-import Header from "./components/Header";
+
 import "./styles/style.css";
 
 const App: React.FC = () => {
